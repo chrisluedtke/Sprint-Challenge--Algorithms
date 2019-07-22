@@ -11,7 +11,7 @@ pseudocode with respect to the input size n of each of the following:
     while (a < n * n * n):
         a = a + n * n
     ```
-    > `O(n ^ 3)`. At `n = 1`, we compute 1 constant time operation, at `n = 2` we compute `2 ^ 3` constant time operations, etc.
+    > `O(n ^ 3) / O(n ^ 2)`, or `O(n)`.
 2.
     ```python
     sum = 0
